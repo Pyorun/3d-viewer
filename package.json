@@ -12,8 +12,10 @@
     "includedScripts": []
   },
   "dependencies": {
+    "@types/three": "^0.173.0",
     "react": "19.0.0",
-    "react-dom": "19.0.0"
+    "react-dom": "19.0.0",
+    "three": "^0.173.0"
   },
   "devDependencies": {
     "@eslint/js": "^9.8.0",

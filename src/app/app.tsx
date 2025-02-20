@@ -1,9 +1,9 @@
-import NxWelcome from './nx-welcome';
+import { MeshViewer } from './mesh-viewer';
 
-export function App() {
+function App() {
   return (
-    <div>
-      <NxWelcome title="3d-viewer" />
+    <div style={{ width: '100vw', height: '100vh' }}>
+      <MeshViewer />
     </div>
   );
 }
