@@ -44,7 +44,7 @@ jobs:
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3.0.1
         with:
-          path: './dist/apps/web'
+          path: './dist/3d-viewer'
 
       - name: Deploy to GitHub Pages
         id: deployment
