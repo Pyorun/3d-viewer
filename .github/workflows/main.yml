@@ -36,15 +36,15 @@ jobs:
         run: npm ci
 
       - name: Build
-        run: npx nx build web --prod
+        run: npx nx build 3d-viewer --prod
 
       - name: Setup Pages
         uses: actions/configure-pages@v3
 
       - name: Upload artifact
-        uses: actions/upload-pages-artifact@v2
+        uses: actions/upload-pages-artifact@v4.6.0
         with:
-          path: './dist/apps/web'
+          path: './dist/apps/3d-viewer'
 
       - name: Deploy to GitHub Pages
         id: deployment
